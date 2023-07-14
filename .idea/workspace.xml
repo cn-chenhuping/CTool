@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c408320d-e34a-489c-82b7-6b15aef3237a" name="Default Changelist" comment="" />
+    <list default="true" id="c408320d-e34a-489c-82b7-6b15aef3237a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +39,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -55,6 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -67,7 +75,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -110,6 +118,9 @@
       <workItem from="1688520657257" duration="927000" />
       <workItem from="1688968549742" duration="7675000" />
       <workItem from="1688986629710" duration="10000" />
+      <workItem from="1689310554633" duration="4112000" />
+      <workItem from="1689316216154" duration="2330000" />
+      <workItem from="1689318638727" duration="631000" />
     </task>
     <servers />
   </component>
@@ -137,30 +148,34 @@
       <screen x="0" y="0" width="1440" height="852" />
     </state>
     <state x="502" y="231" key="FileChooserDialogImpl/0.0.1440.852@0.0.1440.852" timestamp="1687073740832" />
-    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1688979283716">
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1689319133625">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.852@0.0.1440.852" timestamp="1688979283716" />
-    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1688979283716">
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.852@0.0.1440.852" timestamp="1689319133625" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1689319133625">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.852@0.0.1440.852" timestamp="1688979283716" />
-    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1688979283715">
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.852@0.0.1440.852" timestamp="1689319133625" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1689319133624">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.852@0.0.1440.852" timestamp="1688979283715" />
-    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1688979283716">
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.852@0.0.1440.852" timestamp="1689319133624" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1689319133625">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.852@0.0.1440.852" timestamp="1688979283716" />
-    <state x="222" y="2" key="SettingsEditor" timestamp="1688973233739">
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.852@0.0.1440.852" timestamp="1689319133625" />
+    <state x="222" y="2" key="SettingsEditor" timestamp="1689315945241">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state x="222" y="2" key="SettingsEditor/0.0.1440.852@0.0.1440.852" timestamp="1688973233739" />
-    <state x="321" y="117" width="796" height="616" key="find.popup" timestamp="1687140051093">
+    <state x="222" y="2" key="SettingsEditor/0.0.1440.852@0.0.1440.852" timestamp="1689315945241" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1689313401836">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state x="321" y="117" width="796" height="616" key="find.popup/0.0.1440.852@0.0.1440.852" timestamp="1687140051093" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1440.852@0.0.1440.852" timestamp="1689313401836" />
+    <state x="321" y="117" width="800" height="616" key="find.popup" timestamp="1689317853526">
+      <screen x="0" y="0" width="1440" height="852" />
+    </state>
+    <state x="321" y="117" width="800" height="616" key="find.popup/0.0.1440.852@0.0.1440.852" timestamp="1689317853526" />
     <state x="86" y="65" key="new project wizard" timestamp="1688516482778">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
