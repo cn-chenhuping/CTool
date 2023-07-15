@@ -245,18 +245,13 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!--javadoc-->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.9.1</version>
                 <configuration>
-                    <attach>true</attach>
-                    <!-- 解决控制台乱码 -->
                     <charset>UTF-8</charset>
-                    <encoding>UTF-8</encoding>
-                    <docencoding>UTF-8</docencoding>
-                    <failOnError>false</failOnError>
-<!--                    <doclint>none</doclint>-->
                 </configuration>
                 <executions>
                     <execution>
@@ -300,6 +295,33 @@
             </plugin>
         </plugins>
     </build>
+
+
+    <profiles>
+        <profile>
+            <id>doclint-java8-disable</id>
+            <!-- 指定profile只在JDK版本大于等于1.8时有效-->
+            <activation>
+                <jdk>[1.8,)</jdk>
+            </activation>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <!--引入javadoc插件 -->
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-javadoc-plugin</artifactId>
+                            <version>2.9.1</version>
+                            <configuration>
+                                <!-- 禁用java 8 的DocLint新特性，以确保当javadoc有编译错误时，也能正常生成javadoc jar包-->
+                                <additionalparam>-Xdoclint:none</additionalparam>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+    </profiles>
 
 
 </project>

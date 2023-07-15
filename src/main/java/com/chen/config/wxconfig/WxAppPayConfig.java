@@ -1,4 +1,4 @@
-package com.chen.config;
+package com.chen.config.wxconfig;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

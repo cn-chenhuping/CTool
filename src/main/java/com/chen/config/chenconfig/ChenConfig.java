@@ -1,4 +1,4 @@
-package com.chen.config;
+package com.chen.config.chenconfig;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

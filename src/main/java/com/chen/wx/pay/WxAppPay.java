@@ -1,8 +1,8 @@
-package com.chen.pay;
+package com.chen.wx.pay;
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
-import com.chen.config.WxAppPayConfig;
+import com.chen.config.wxconfig.WxAppPayConfig;
 import com.wechat.pay.java.service.payments.app.model.*;
 import com.wechat.pay.java.core.util.AesUtil;
 import com.wechat.pay.java.core.notification.Notification;
