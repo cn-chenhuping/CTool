@@ -1,6 +1,6 @@
 package com.chen.utils.file;
 
-import com.chen.config.ChenConfig;
+import com.chen.config.chenconfig.ChenConfig;
 import com.chen.utils.DateUtils;
 import com.chen.utils.StringUtils;
 import com.chen.utils.uuid.IdUtils;

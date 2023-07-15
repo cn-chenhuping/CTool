@@ -1,4 +1,4 @@
-package com.chen.config;
+package com.chen.config.wxconfig;
 
 import com.wechat.pay.java.core.RSAConfig;
 import com.wechat.pay.java.service.payments.app.AppServiceExtension;

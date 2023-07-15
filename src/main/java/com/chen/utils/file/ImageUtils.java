@@ -1,6 +1,6 @@
 package com.chen.utils.file;
 
-import com.chen.config.ChenConfig;
+import com.chen.config.chenconfig.ChenConfig;
 import com.chen.constants.Constants;
 import org.apache.commons.lang.StringUtils;
 import org.apache.poi.util.IOUtils;

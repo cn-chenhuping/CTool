@@ -1,9 +1,9 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.chen.config.WchatAutoConfiguration,\
-com.chen.pay.WxAppPay,\
+com.chen.config.wxconfig.WchatAutoConfiguration,\
+com.chen.wx.pay.WxAppPay,\
 com.chen.aliyun.shorts.model.ShortConfig,\
 com.chen.aliyun.oss.model.ConstantPropertiesUtils,\
 com.chen.utils.spring.SpringUtils,\
-com.chen.config.ChenConfig,\
+com.chen.config.chenconfig.ChenConfig,\
 com.chen.aliyun.shorts.ShortApi,\
-com.chen.config.AlipayConfig
+com.chen.config.aliconfig.AlipayConfig

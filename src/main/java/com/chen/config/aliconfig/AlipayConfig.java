@@ -1,4 +1,4 @@
-package com.chen.config;
+package com.chen.config.aliconfig;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
