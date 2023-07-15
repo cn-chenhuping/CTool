@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c408320d-e34a-489c-82b7-6b15aef3237a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chen/config/aliconfig/AlipayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chen/config/chenconfig/ChenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chen/config/wxconfig/WchatAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chen/config/wxconfig/WxAppPayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chen/wx/pay/WxAppPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/aliyun/pay/ZfbAppPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chen/aliyun/pay/ZfbAppPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/config/AlipayConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/config/ChenConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/config/WchatAutoConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/config/WxAppPayConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/pay/WxAppPay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/utils/file/FileUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chen/utils/file/FileUploadUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/utils/file/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chen/utils/file/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/utils/file/ImageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chen/utils/file/ImageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +127,7 @@
       <workItem from="1689318638727" duration="2239000" />
       <workItem from="1689322002020" duration="4077000" />
       <workItem from="1689380878435" duration="520000" />
-      <workItem from="1689390022472" duration="2581000" />
+      <workItem from="1689390022472" duration="3247000" />
     </task>
     <task id="LOCAL-00001" summary="bug">
       <created>1689319306069</created>
@@ -155,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689319306070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="对整体进行重新修正">
+      <created>1689392641182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689392641182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +164,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug" />
+    <MESSAGE value="对整体进行重新修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="对整体进行重新修正" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="84" key="#Project_Structure" timestamp="1688516460893">
@@ -199,10 +188,10 @@
       <screen x="0" y="0" width="1440" height="852" />
     </state>
     <state x="460" y="111" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.852@0.0.1440.852" timestamp="1689322467150" />
-    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1689319304943">
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1689393288216">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1440.852@0.0.1440.852" timestamp="1689319304943" />
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1440.852@0.0.1440.852" timestamp="1689393288216" />
     <state x="93" y="93" width="1253" height="665" key="DiffContextDialog" timestamp="1689319319064">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
@@ -235,14 +224,14 @@
       <screen x="0" y="0" width="1440" height="852" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1440.852@0.0.1440.852" timestamp="1689313401836" />
-    <state x="313" y="155" key="Vcs.Push.Dialog.v2" timestamp="1689319349980">
+    <state x="313" y="155" key="Vcs.Push.Dialog.v2" timestamp="1689393307341">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state x="313" y="155" key="Vcs.Push.Dialog.v2/0.0.1440.852@0.0.1440.852" timestamp="1689319349980" />
-    <state x="515" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1689392268905">
+    <state x="313" y="155" key="Vcs.Push.Dialog.v2/0.0.1440.852@0.0.1440.852" timestamp="1689393307341" />
+    <state x="515" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1689393292505">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state x="515" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.852@0.0.1440.852" timestamp="1689392268905" />
+    <state x="515" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.852@0.0.1440.852" timestamp="1689393292505" />
     <state x="321" y="117" width="800" height="616" key="find.popup" timestamp="1689317853526">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
